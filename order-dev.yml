@@ -7,5 +7,5 @@ spring:
 server:
   port: 8081
 env:
-  test3
+  test
     
