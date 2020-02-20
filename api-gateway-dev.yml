@@ -3,13 +3,13 @@ server:
 zuul:
   routes:
     #这个自己定义，可以跟path中的不一致，访问时用的是path中的
-    #myProduct: 
-     #path: /myProduct/**
-     #service-id: product #eureka中注册的serviceId  
-     #sensitiveHeaders:   #配置为空，允许传递cookie
-    product: /myProduct/** #上面配置的简洁写法
+    myProduct: 
+     path: /myProduct/**
+     service-id: product #eureka中注册的serviceId  
+     sensitiveHeaders:   #配置为空，允许传递cookie
+    #product: /myProduct/** #上面配置的简洁写法
   ignored-patterns:
 #  - /product/product/listForOrder
 #  - /myProduct/product/listForOrder
-   - /**/product/listForOrder
+#   - /**/product/listForOrder
     
