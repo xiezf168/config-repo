@@ -1,6 +1,7 @@
 server:
   port: 8070
 zuul:
+  sensitiveHeaders:
   routes:
     #这个自己定义，可以跟path中的不一致，访问时用的是path中的
     myProduct: 
