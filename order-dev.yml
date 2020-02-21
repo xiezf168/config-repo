@@ -17,5 +17,3 @@ server:
 env:
   test469
     
-management:
-  contextpath: /
